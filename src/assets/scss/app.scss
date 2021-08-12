@@ -1,0 +1,28 @@
+// Помощники
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+//Общее
+@import 'main/stylesheet';// шрифты
+@import 'main/reset'; // сброс стилей для кроссбраузерности
+@import 'main/common'; // общие стили
+
+.background-project {
+    background-image: url(../imgs/background-project.svg);
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+@import 'components/header';
+@import 'components/main-section';
+@import 'components/steps-section';
+@import 'components/quality-section';
+@import 'components/service-section';
+@import 'components/doctors-section';
+
+

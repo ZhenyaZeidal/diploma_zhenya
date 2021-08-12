@@ -1,0 +1,163 @@
+@import "../utils/parameters";
+
+.main-section {
+    background: url(../imgs/background-main.png);
+    padding: 250px 0 0 0;
+    overflow: hidden;
+
+    .container {
+        position: relative;
+    }
+       
+}
+
+.main-section__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 15rem;
+}
+
+.main-section__find {
+    padding-bottom: 3rem;
+    flex: 50%;
+    
+}
+
+.main-title {
+    font-family: $body-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 146%;
+    color: #3E3E3E;
+    margin-bottom: 5rem;
+    max-width: 56rem;
+
+}
+
+.primary {
+    color: #40A3F8;
+}
+
+.main-section__description {
+    font-family: $body-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 214%;
+    color: rgba(117, 117, 117, 0.46);
+}
+
+.main-section__img {
+    flex: 50%;
+}
+
+
+.main-img {
+    max-width: 100%;
+    max-height: 52rem;
+    position: absolute;
+    right: -15rem;
+    bottom: 0;
+    
+}
+
+
+.select-doctors {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px rgba(228, 245, 252, 0.3);
+    border-radius: 8px;
+    padding: 1rem;
+    flex-wrap: wrap;
+    
+}
+
+
+.label {
+    display: block;
+}
+
+.field {
+    outline: none;
+    background: rgba(245, 246, 250, 0.52);
+    border-radius: 8px;
+    padding: 1rem 5rem 1rem 1rem;
+    margin-right: 1rem;
+    
+}
+
+.select-coutry {
+    padding: 1rem;
+    background: rgba(245, 246, 250, 0.52);
+    border-radius: 8px;
+    padding: 1rem 7rem 1rem 1rem;
+    box-shadow: 0px 4px 22px rgba(228, 245, 252, 0.3);
+    margin-right: 1rem;
+}
+
+.find {
+    background: #40A3F8;
+    border-radius: 8px;
+    padding: 0.1rem;
+    display: inline-block;
+
+}
+
+.find-img {
+    max-width: 100%;
+}
+
+@media (max-width: $md){
+    .main-title {
+        font-size: 4rem;
+}
+    
+}
+
+@media (max-width: $sm) {
+    .select-doctors {
+        display: block;
+
+    }
+
+    .fieldgroup {
+        margin-bottom: 1rem;
+    }
+
+    .main-title {
+        font-size: 3.5rem;
+    }
+   
+}
+
+@media (max-width: $xs) {
+    .select-doctors {
+        display: block;
+
+    }
+
+    .fieldgroup {
+        margin-bottom: 1rem;
+    }
+
+    .main-img {
+        position: static;
+   
+    }
+
+    .main-section__img {
+        flex: 100%;
+    }
+    
+    .main-title {
+        margin-bottom: 2rem;
+    }
+
+    
+
+}
+

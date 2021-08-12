@@ -1,0 +1,24 @@
+section.service-section 
+    .container 
+        .service-section__container
+            h2.service-section__main Meet Our Certified Online Doctors
+            img(src="./assets/imgs/line.svg", alt="line")
+            p Our online doctors have an average of 15 years experience and a 98% satisfaction rating, they really set us apart!
+        div.service-section__row
+            mixin item(img, title, text)
+                div.service-section__mixit
+                    img(src=img, alt="row").service-section__img
+                    div.service-section__head=title
+                    div.service-section__description=text
+                    div 
+                        a(href="#") 
+                            img(src="./assets/imgs/fb.svg", alt="facebook")
+                        a(href="#") 
+                            img(src="./assets/imgs/tw.svg", alt="rw")
+                        a(href="#") 
+                            img(src="./assets/imgs/ld.svg", alt="ld")
+            +item('./assets/imgs/dr.amanda.png', 'Dr. Amanda Linda ', 'Dentist Specilist')
+            +item('./assets/imgs/dr.alisa.png', 'Dr. Alisa Rahman', 'Carddiologist Specilist')
+            +item('./assets/imgs/dr.amanda.png', 'Dr. Anthony Fauci', 'Neurology Specilist')
+            +item('./assets/imgs/dr.khalid.png', 'Dr. Khalid Abbed', 'Cancer Specilist')
+        p Explore All Doctors

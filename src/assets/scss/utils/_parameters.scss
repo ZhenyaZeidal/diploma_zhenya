@@ -1,0 +1,26 @@
+// переменные 
+//GRID
+//точки адаптива
+$lg: 1199px;
+$md: 1024px;
+$sm: 768px;
+$xs: 576px;
+
+
+//Цвета макета
+$c-primary: #B1DEFF;//основной цвет макета
+$c-secondary: #E5E5E5;//дополнительный цвет макета
+$c-text: #3D3D3F;//основной цвет текста макета
+$c-text2: #999999;//дополнительный цвет текста макета
+
+
+
+
+// Размер шрифта
+$font-size-base: 10px;
+
+
+// Шрифты
+$body-font: 'Roboto', sans-serif;//основной
+$headers-font: 'Poppins', sans-serif;//для заголовков
+$secondary-font: 'DM Sans', sans-serif;//дополнительный

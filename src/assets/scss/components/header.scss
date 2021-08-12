@@ -1,0 +1,102 @@
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+.header {
+    padding-top: 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+
+}
+
+.header-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.header-logo {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.1rem;
+    line-height: 149%;
+    letter-spacing: 1px;
+    color: #40A3F8;
+    text-decoration: none;
+}
+
+.header__link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+
+.header-link {
+    text-decoration: none;
+}
+
+.header-link__main {
+    font-family: $headers-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #40A3F8;
+}
+
+.header-link__text {
+    font-family: $headers-font;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #6E5F5F;
+    opacity: 0.3;
+    margin-left: 5rem;
+}
+
+.header-link--inverse {
+    background: #40A3F8;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin-left: 5rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.header-link__get{
+    font-family: $headers-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 147%;
+    color: #FFFFFF;
+}
+
+
+
+@media (max-width: $md){
+    .header-link__text {
+        margin-left: 2rem;
+    }
+   
+    
+}
+
+@media (max-width: $xs) {
+    .header-link--inverse {
+        margin-top: 1rem;
+    }  
+    
+    .header {
+        margin-bottom: 2rem;
+    }
+}
