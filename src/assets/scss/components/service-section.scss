@@ -1,8 +1,68 @@
 @import "../utils/parameters";
 
-
-.service-section__row{
+.service-section__container{
+    margin-bottom: 5rem;
+}
+.service-section__row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+}
+
+.service-section__main {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.2rem;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+    color: #3D3D3F;
+    text-align: center;
+}
+
+.service-section__head {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 167%;
+    text-align: center;
+    color: #3D3D3F;
+
+}
+.section-text {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+    color: rgba(61, 61, 63, 0.7);
+}
+
+.service-section__description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 157%;
+    text-align: center;
+    color: #999999;
+
+}
+
+.service-section__img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.service-section__mixit {
+    background: linear-gradient(138.88deg, #fefefe00 -2.44%, #F9F9F9 -2.43%, #fefefe82 98.26%);
+    border-radius: 10px;
+    flex: 33%;
+    margin: 5rem;
 }

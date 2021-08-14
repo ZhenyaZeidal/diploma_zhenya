@@ -1,1 +1,7 @@
 @import "../utils/parameters";
+
+.doctors-section__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

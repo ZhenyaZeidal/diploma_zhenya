@@ -3,11 +3,8 @@
 .quality-section {
     overflow: hidden;
     padding-top: 10rem;
-    margin-bottom: 20rem;
+    
 
-    .container {
-        position: relative;
-    }
 }
 
 .quality-section__container {
@@ -24,9 +21,7 @@
 
 .quality-img {
     max-width: 100%;
-    position: absolute;
-    top: -10rem;
-    left: -15rem;
+    
 }
 
 
@@ -42,8 +37,8 @@
 }
 
 .guality-section__descriotion {
-    flex: 50%;
-    max-width: 54rem;
+    flex: 1 0 50%;
+    max-width: 50%;
     padding-left: 5rem;
 }
 
