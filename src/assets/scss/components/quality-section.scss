@@ -3,8 +3,7 @@
 .quality-section {
     overflow: hidden;
     padding-top: 10rem;
-    
-
+    margin-bottom: 10rem;
 }
 
 .quality-section__container {
@@ -75,6 +74,10 @@
 }
 
 @media (max-width: $md) {
+
+    .quality-section {
+        margin-bottom: 1rem;
+    }
     
     .best-quality{
         font-size: 3.5rem;
@@ -89,7 +92,8 @@
     }
 
         .guality-section__descriotion {
-            flex: 100%;
+            flex: 1 0 100%;
+            max-width: 100%;
     }
 
     .quality-section__img {
@@ -108,7 +112,8 @@
     }
 
         .guality-section__descriotion {
-            flex: 100%;
+            flex: 1 0 100%;
+            max-width: 100%;
     }
         
    
