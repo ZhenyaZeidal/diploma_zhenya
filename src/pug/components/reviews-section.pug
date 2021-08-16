@@ -1,0 +1,14 @@
+section.reviews-section 
+    .container 
+        .reviews-section__container
+            h2.reviews-section__title Look our Clients have to say about us
+        div.reviews-section__row
+            mixin item(img, title, country, text)
+                div.reviews-section__mixit
+                    img(src=img, alt="row").reviews-section__img
+                    div.reviews-section__head=title
+                    div.reviews-section__country=country
+                    div.reviews-section__description=text
+            +item('./assets/imgs/alan.png', 'Alan Zara dilan', 'New York, America, USA', 'Telehealth is fueled by digital technologies and DocTime telemedicine app has brought a great revolution in medical services specially an overpopulated country where virtual chamber can create at anywhere thoughout country')
+            +item('./assets/imgs/alex.png', 'Alex Maxwell', 'San Francisco, USA', 'I visited my PCP for abdominal pain. My doctor told me that I need to see Gastroenterologist. Earlier I used to call multiple offices to schedule an appointment that suites my time.')
+            +item('./assets/imgs/zara.png', 'Dr. Tasnim zara', 'Los Angeles, USA', 'HealthCare is enlightens my superpower each and every time...! I find DocTime a brand-able telemedicine platform with virtual waiting room, video consultation, e-prescription, beautifully planned user interface. Thank you :)')

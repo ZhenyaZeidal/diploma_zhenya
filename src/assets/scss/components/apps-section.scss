@@ -1,0 +1,91 @@
+@import "../utils/parameters";
+
+.apps-section {
+    margin-bottom: 5rem;
+}
+.apps-section__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apps-section__img {
+    flex: 1 0 50%;
+    max-width: 50%;
+}
+
+.apps-img {
+    max-width: 100%;
+}
+
+.apps-discription {
+    flex: 1 0 50%;
+    max-width: 50%;
+}
+
+.apps-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.2rem;
+    line-height: 134%;
+    letter-spacing: 0.02em;
+    color: #3D3D3F;
+    margin-bottom: 2rem;
+}
+
+.apps-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+    color: rgba(61, 61, 63, 0.7);
+    margin-bottom: 3rem;
+}
+
+.googleplay-link {
+    list-style-type: none;
+}
+
+.googleplay {
+    max-width: 100%;
+}
+
+.appstore-link {
+    list-style-type: none;
+}
+
+.appstore {
+    max-width: 100%;
+}
+
+@media (max-width: $sm) {
+    .apps-section__container {
+        display: block;
+       
+    }
+
+    .apps-section__img {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+
+    .apps-title {
+        font-size: 3.6rem;
+    }
+        
+    .apps-discription {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+
+    
+}
+
+@media (max-width: $xs) {
+    .apps-title {
+        font-size: 3rem;
+    }
+}

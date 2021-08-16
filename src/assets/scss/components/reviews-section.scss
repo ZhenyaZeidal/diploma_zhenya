@@ -1,0 +1,82 @@
+@import "../utils/parameters";
+
+.reviews-section {
+    margin-bottom: 20rem;
+}
+
+.reviews-section__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.2rem;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+    color: #3D3D3F;
+    text-align: center;
+}
+
+.reviews-section__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reviews-section__mixit {
+    flex: 33.3333%;
+    padding: 2rem;
+    background: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+}
+
+.reviews-section__img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.reviews-section__head {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.0rem;
+    line-height: 275%;
+    color: #3D3D3F;
+}
+
+.reviews-section__country{
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 179%;
+    color: #47C2FF
+    ;
+
+}
+
+.reviews-section__description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 156%;
+    color: #454D5D;
+}
+
+@media (max-width: $sm) {
+    .reviews-section__title {
+        font-size: 3.5rem;
+    }
+
+
+    .reviews-section__row {
+        display: block;
+ }
+
+    .reviews-section {
+        margin-bottom: 7rem;
+}
+
+}
+
