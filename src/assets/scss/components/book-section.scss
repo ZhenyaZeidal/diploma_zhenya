@@ -47,6 +47,7 @@
     border-radius: 5px;
     text-decoration: none;
     padding: 2rem;
+    display: inline-block;
 }
 
 .book-section__img {
@@ -60,13 +61,15 @@
     right: 0;
 }
 
-@media (max-width: $sm) {
+@media (max-width: $md) {
     .book-section__container {
         display: block;
     }
 
     .book-img {
         position: static;
+        display: block;
+        margin: 0 auto;
     }
 
     .book-section__container {
@@ -75,10 +78,13 @@
 
     .book-section__text {
         margin-bottom: 3rem;
+        flex: 100%;
+        text-align: center;
     }
 
     .book-section__title {
         font-size: 3.6rem;
+        
         
     }
 }

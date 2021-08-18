@@ -50,6 +50,7 @@
     letter-spacing: 0.02em;
     color: $c-text;
     list-style-image: url(../imgs/point.png);
+    
 }
 
 .quality-explore {
@@ -59,10 +60,6 @@
     display: inline-block;
     text-decoration: none;
     margin-bottom: 20rem;
-    
-}
-
-.explore {
     font-family: $body-font;
     font-style: normal;
     font-weight: normal;
@@ -72,6 +69,12 @@
     color: #FFFFFF;
     
 }
+
+.quality-explore__img {
+    max-width: 100%;
+    padding-left: 2rem;
+}
+
 
 @media (max-width: $md) {
 
@@ -98,6 +101,10 @@
 
     .quality-section__img {
         margin-bottom: 3rem;
+    }
+
+    .quality-explore {
+        margin-bottom: 2rem;
     }
 }
 

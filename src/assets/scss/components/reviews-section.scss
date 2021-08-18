@@ -13,19 +13,40 @@
     letter-spacing: 0.02em;
     color: #3D3D3F;
     text-align: center;
+    margin-bottom: 3rem;
+   
 }
 
 .reviews-section__row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+    
+}
+
+.quote {
+    max-width: 100%;
+    position: absolute;
+    top: -2rem;
+    right: 0;
+}
+
+.stars {
+    max-width: 100%;
+    position: absolute;
+    top: 2rem;
+    right: 0;
 }
 
 .reviews-section__mixit {
     flex: 33.3333%;
-    padding: 2rem;
+    margin: 2rem;
     background: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
     box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+    position: relative;  
+    padding: 1rem ; 
+    
 }
 
 .reviews-section__img {
@@ -41,6 +62,7 @@
     font-size: 2.0rem;
     line-height: 275%;
     color: #3D3D3F;
+    position: relative;
 }
 
 .reviews-section__country{
@@ -50,8 +72,7 @@
     font-weight: normal;
     font-size: 1.4rem;
     line-height: 179%;
-    color: #47C2FF
-    ;
+    color: #47C2FF;
 
 }
 
@@ -64,7 +85,7 @@
     color: #454D5D;
 }
 
-@media (max-width: $sm) {
+@media (max-width: $md) {
     .reviews-section__title {
         font-size: 3.5rem;
     }

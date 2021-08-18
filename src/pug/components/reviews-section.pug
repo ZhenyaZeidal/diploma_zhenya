@@ -5,8 +5,10 @@ section.reviews-section
         div.reviews-section__row
             mixin item(img, title, country, text)
                 div.reviews-section__mixit
+                    img(src="./assets/imgs/quote.svg", alt="quote").quote
                     img(src=img, alt="row").reviews-section__img
                     div.reviews-section__head=title
+                        img(src="./assets/imgs/stars.svg", alt="stars").stars
                     div.reviews-section__country=country
                     div.reviews-section__description=text
             +item('./assets/imgs/alan.png', 'Alan Zara dilan', 'New York, America, USA', 'Telehealth is fueled by digital technologies and DocTime telemedicine app has brought a great revolution in medical services specially an overpopulated country where virtual chamber can create at anywhere thoughout country')

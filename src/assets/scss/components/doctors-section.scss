@@ -47,6 +47,7 @@
     align-items: center;
     justify-content: space-between;
     
+    
 }
 
 .doctor-section__img {
@@ -82,23 +83,25 @@
 }
 
 .facebook-link {
-    list-style-type: none;
+    text-decoration: none;
 }
 
 .facebook {
     max-width: 100%;
+    margin-right: 0.5rem;
 }
 
 .rw-link {
-    list-style-type: none;
+    text-decoration: none;
 }
 
 .rw {
     max-width: 100%;
+    margin-right: 0.5rem;
 }
 
 .ld-link {
-    list-style-type: none;
+    text-decoration: none;
 }
 
 .ld {
