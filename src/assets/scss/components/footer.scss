@@ -117,6 +117,10 @@
     padding: 1rem 11rem;
     text-align: center;
     display: inline-block;
+
+    &:hover {
+        transform: scaleY(1.2);
+    }
 }
 
 .footer-end {

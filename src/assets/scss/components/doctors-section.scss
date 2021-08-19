@@ -127,6 +127,10 @@
     line-height: 187%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+
+    &:hover {
+        transform: scaleY(1.2);
+    }
     
 }
 

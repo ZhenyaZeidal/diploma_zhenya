@@ -48,6 +48,10 @@
     text-decoration: none;
     padding: 2rem;
     display: inline-block;
+
+    &:hover {
+        transform: scaleY(1.2);
+    }
 }
 
 .book-section__img {
@@ -59,7 +63,18 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 4s linear 4s normal none infinite running rot;
 }
+
+@keyframes rot {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
 
 @media (max-width: $md) {
     .book-section__container {

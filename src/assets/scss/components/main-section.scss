@@ -56,14 +56,25 @@
 
 .main-section__img {
     flex: 50%;
-}
 
+}
 
 .main-img {
     max-width: 100%;
     max-height: 52rem;
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 4s linear 4s normal none infinite running rot;
     
 }
+
+@keyframes rot {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
 
 
 .select-doctors {

@@ -20,8 +20,19 @@
 
 .quality-img {
     max-width: 100%;
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 4s linear 4s normal none infinite running rot;
     
 }
+
+@keyframes rot {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
 
 
 .best-quality {
@@ -67,6 +78,10 @@
     line-height: 187%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+
+    &:hover {
+        transform: scaleY(1.2);
+    }
     
 }
 

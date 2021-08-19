@@ -48,6 +48,13 @@
     line-height: 150%;
     color: #40A3F8;
     text-decoration: none;
+    padding: 2rem;
+
+    &:hover {
+        background-color: #40A3F8;
+        color: #FFFFFF;
+        transition: background-color 0.4s ease, color 0.4s ease;
+    }
 }
 
 .header-link__text {
@@ -59,9 +66,11 @@
     opacity: 0.3;
     margin-left: 5rem;
     text-decoration: none;
+    padding: 2rem;
 
-    &:active {
-        color: #40A3F8;
+    &:hover {
+        background-color: #40A3F8;
+        transition: background-color 0.2s ease, color 0.2s ease;
     }
 }
 
@@ -78,6 +87,13 @@
     padding: 1rem 2rem;
     margin-left: 5rem;
     display: inline-block;
+    padding: 2rem;
+
+    &:hover {
+        transform: scaleY(1.2);
+    }
+
+    
 }
 
 
