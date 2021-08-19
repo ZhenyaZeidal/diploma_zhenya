@@ -139,13 +139,7 @@ img, fieldset, iframe {
 
 input {
   border-radius: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none; }
-
-input::-moz-focus-inner, button::-moz-focus-inner {
-  padding: 0;
-  border: 0; }
 
 /* COMMON STYLE */
 html {
@@ -759,21 +753,19 @@ button {
   max-width: 100%; }
 
 .doctor-explore {
-  font-family: Roboto;
+  background: #40a3f8;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 20rem;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.8rem;
-  line-height: 167%;
-  color: #FFFFFF;
-  text-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
-  border-radius: 1rem;
-  border: 1px solid #40A3F8;
-  background: #40A3F8;
-  box-sizing: border-box;
-  padding: 1rem;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block; }
+  font-size: 1.6rem;
+  line-height: 187%;
+  letter-spacing: 0.02em;
+  color: #FFFFFF; }
 
 @media (max-width: 1024px) {
   .doctor-section__row {
