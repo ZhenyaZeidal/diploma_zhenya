@@ -276,8 +276,7 @@ button {
   font-size: 1.6rem;
   line-height: 150%;
   color: #40A3F8;
-  text-decoration: none;
-  padding: 2rem; }
+  text-decoration: none; }
   .header-link__main:hover {
     background-color: #40A3F8;
     color: #FFFFFF;
@@ -291,8 +290,7 @@ button {
   color: #6E5F5F;
   opacity: 0.3;
   margin-left: 5rem;
-  text-decoration: none;
-  padding: 2rem; }
+  text-decoration: none; }
   .header-link__text:hover {
     background-color: #40A3F8;
     transition: background-color 0.2s ease, color 0.2s ease; }
@@ -309,8 +307,7 @@ button {
   border-radius: 5px;
   padding: 1rem 2rem;
   margin-left: 5rem;
-  display: inline-block;
-  padding: 2rem; }
+  display: inline-block; }
   .header-link__get:hover {
     transform: scaleY(1.2); }
 
