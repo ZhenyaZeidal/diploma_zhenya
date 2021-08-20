@@ -1,7 +1,7 @@
 @import "../utils/parameters";
 
 .steps-section {
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
     padding-top: 10rem;
     
     
@@ -29,10 +29,10 @@
     text-align: center;
     flex: 1 0 33.333%;
     max-width: 33.333%;
-    
-    
+    padding: 5rem; 
     
 }
+
 
 .steps-section__img {
     max-width: 100%;
